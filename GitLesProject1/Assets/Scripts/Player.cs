@@ -22,4 +22,9 @@ public class Player : MonoBehaviour
     {
         //Movement code here...
     }
+
+    private bool didHit()
+    {
+        return (_moveSpeed < 10);
+    }
 }
